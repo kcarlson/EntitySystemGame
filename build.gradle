@@ -48,5 +48,5 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'DesktopLauncher'
+mainClassName = 'se.mejsla.game.DesktopLauncher'
 

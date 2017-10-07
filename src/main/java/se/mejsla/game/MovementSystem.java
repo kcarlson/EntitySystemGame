@@ -1,4 +1,5 @@
-import java.util.stream.Stream;
+package se.mejsla.game;
+
 import java.util.stream.StreamSupport;
 
 import com.badlogic.ashley.core.Component;

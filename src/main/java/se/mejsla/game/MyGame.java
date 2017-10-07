@@ -1,12 +1,11 @@
-import com.badlogic.ashley.core.Engine;
-import com.badlogic.ashley.core.Entity;
+package se.mejsla.game;
+
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class MyGame extends Game{
+public class MyGame extends Game {
   public SpriteBatch batcher;
 
 	@Override
@@ -14,7 +13,7 @@ public class MyGame extends Game{
 		batcher = new SpriteBatch();
 		// Setting.load();
 		// Assets.load();
-		setScreen(new MainScreen(this));
+		setScreen(new GameScreen(this));
 	}
 
 	@Override
